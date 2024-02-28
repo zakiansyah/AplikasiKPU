@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aplikasi KPU</string>
+    <string name="informasi">Informasi</string>
+    <string name="entri_data">Entri Data</string>
+    <string name="lihat">Lihat</string>
+    <string name="cari_lokasi">Cari Lokasi</string>
+    <string name="masukkan_nik">Masukkan NIK</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_alamat">Masukkan Alamat</string>
+    <string name="masukkan_jenis_kelamin">Masukkan Jenis Kelamin</string>
+    <string name="simpan">Simpan</string>
+    <string name="nik">NIK</string>
+    <string name="nama">Nama</string>
+</resources>
