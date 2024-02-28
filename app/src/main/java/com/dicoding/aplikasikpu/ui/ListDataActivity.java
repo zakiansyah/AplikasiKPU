@@ -1,4 +1,4 @@
-package com.dicoding.aplikasikpu;
+package com.dicoding.aplikasikpu.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.dicoding.aplikasikpu.R;
 import com.dicoding.aplikasikpu.adapter.VoterAdapter;
 import com.dicoding.aplikasikpu.db.DbHelper;
 import com.dicoding.aplikasikpu.model.Voter;

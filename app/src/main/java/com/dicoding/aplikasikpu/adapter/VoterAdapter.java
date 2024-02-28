@@ -14,10 +14,10 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dicoding.aplikasikpu.DetailVoterActivity;
-import com.dicoding.aplikasikpu.ListDataActivity;
+import com.dicoding.aplikasikpu.ui.DetailVoterActivity;
+import com.dicoding.aplikasikpu.ui.ListDataActivity;
 import com.dicoding.aplikasikpu.R;
-import com.dicoding.aplikasikpu.UpdateActivity;
+import com.dicoding.aplikasikpu.ui.UpdateActivity;
 import com.dicoding.aplikasikpu.db.DbHelper;
 import com.dicoding.aplikasikpu.model.Voter;
 

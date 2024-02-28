@@ -1,4 +1,4 @@
-package com.dicoding.aplikasikpu;
+package com.dicoding.aplikasikpu.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 

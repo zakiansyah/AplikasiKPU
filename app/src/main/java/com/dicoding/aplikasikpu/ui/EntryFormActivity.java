@@ -1,4 +1,4 @@
-package com.dicoding.aplikasikpu;
+package com.dicoding.aplikasikpu.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.dicoding.aplikasikpu.R;
 import com.dicoding.aplikasikpu.db.DbHelper;
 
 public class EntryFormActivity extends AppCompatActivity {

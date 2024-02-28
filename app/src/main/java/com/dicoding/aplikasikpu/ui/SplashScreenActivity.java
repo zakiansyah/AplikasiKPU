@@ -1,10 +1,12 @@
-package com.dicoding.aplikasikpu;
+package com.dicoding.aplikasikpu.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.dicoding.aplikasikpu.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

@@ -13,22 +13,22 @@
         android:theme="@style/Theme.AplikasiKPU"
         tools:targetApi="31">
         <activity
-            android:name=".UpdateActivity"
+            android:name=".ui.UpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailVoterActivity"
+            android:name=".ui.DetailVoterActivity"
             android:exported="false"
-            android:parentActivityName=".ListDataActivity" />
+            android:parentActivityName=".ui.ListDataActivity" />
         <activity
-            android:name=".ListDataActivity"
+            android:name=".ui.ListDataActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ui.MainActivity" />
         <activity
-            android:name=".EntryFormActivity"
+            android:name=".ui.EntryFormActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ui.MainActivity" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ui.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="false" />
     </application>
 
