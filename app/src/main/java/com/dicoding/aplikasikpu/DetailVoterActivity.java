@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.dicoding.aplikasikpu.R;
 import com.dicoding.aplikasikpu.db.DbHelper;
 import com.dicoding.aplikasikpu.model.Voter;
 

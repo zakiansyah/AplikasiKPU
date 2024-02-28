@@ -56,6 +56,18 @@ public class DbHelper extends SQLiteOpenHelper {
         db.insert(TABLE_STD, null,values);
     }
 
+    public int updateUser(int id, String nik, String name, String address, String sex) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+        values.put(KEY_NIK, nik);
+        values.put(KEY_NAME, name);
+        values.put(KEY_ADDRESS, address);
+        values.put(KEY_SEX, sex);
+
+        return db.update(TABLE_STD, values, KEY_ID + " = ?", new String[]{String.valueOf(id)});
+    }
+
     @SuppressLint("Range")
     public ArrayList<Voter> getAllUser(){
         ArrayList<Voter> userModel = new ArrayList<>();

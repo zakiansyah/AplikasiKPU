@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.dicoding.aplikasikpu.DetailVoterActivity;
 import com.dicoding.aplikasikpu.ListDataActivity;
 import com.dicoding.aplikasikpu.R;
+import com.dicoding.aplikasikpu.UpdateActivity;
 import com.dicoding.aplikasikpu.db.DbHelper;
 import com.dicoding.aplikasikpu.model.Voter;
 
@@ -80,6 +81,13 @@ public class VoterAdapter extends RecyclerView.Adapter<VoterAdapter.VoterViewHol
             AlertDialog alert = builder.create();
             alert.show();
         });
+
+        holder.btnUpdate.setOnClickListener((View v) -> {
+            Intent updateIntent = new Intent(activity, UpdateActivity.class);
+            updateIntent.putExtra("user", (Serializable) listVoter.get(position));
+            activity.startActivity(updateIntent);
+        });
+
     }
 
     @Override
@@ -91,13 +99,14 @@ public class VoterAdapter extends RecyclerView.Adapter<VoterAdapter.VoterViewHol
 
         TextView tvNik, tvName;
         CardView cvItem;
-        Button btnDelete;
+        Button btnDelete, btnUpdate;
         public VoterViewHolder(@NonNull View itemView) {
             super(itemView);
             tvNik = itemView.findViewById(R.id.tv_item_nik);
             tvName = itemView.findViewById(R.id.tv_item_nama);
             cvItem = itemView.findViewById(R.id.cv_item_voter);
             btnDelete = itemView.findViewById(R.id.btn_delete);
+            btnUpdate = itemView.findViewById(R.id.btn_update);
         }
     }
 }
